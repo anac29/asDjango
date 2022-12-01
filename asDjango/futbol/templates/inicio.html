@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+  Inicio
+{% endblock %}
+
+{% block content %}
+  {{info}}
+  {%if temporadas%}
+  {{temporadas}}
+  {%endif%}
+{% endblock %}
